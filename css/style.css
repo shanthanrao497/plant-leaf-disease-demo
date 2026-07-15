@@ -156,3 +156,20 @@ padding:20px;
 background:#111827;
 
 }
+.demo-note{
+    margin-top:25px;
+    padding:15px;
+    background:rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:12px;
+    text-align:center;
+}
+
+.demo-note h3{
+    color:#22c55e;
+    margin-bottom:10px;
+}
+
+.demo-note p{
+    margin:5px 0;
+}
