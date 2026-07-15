@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard - Plant AI</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+body{
+background:#0f172a;
+color:white;
+font-family:Poppins,sans-serif;
+}
+
+.dashboard{
+padding:40px;
+}
+
+.topbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:40px;
+}
+
+.logout{
+background:#ef4444;
+padding:10px 20px;
+border-radius:20px;
+text-decoration:none;
+color:white;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1f2937;
+padding:30px;
+border-radius:20px;
+transition:.3s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:#22c55e;
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.upload-btn{
+display:inline-block;
+margin-top:40px;
+padding:15px 40px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-size:18px;
+}
+
+.upload-btn:hover{
+background:#16a34a;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<div class="topbar">
+
+<h1>🌿 Plant AI Dashboard</h1>
+
+<a href="index.html" class="logout">Logout</a>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h2>Total Predictions</h2>
+<h1>124</h1>
+</div>
+
+<div class="card">
+<h2>Healthy Leaves</h2>
+<h1>82</h1>
+</div>
+
+<div class="card">
+<h2>Diseased Leaves</h2>
+<h1>42</h1>
+</div>
+
+</div>
+
+<center>
+
+<a href="upload.html" class="upload-btn">
+
+Upload Leaf Image
+
+</a>
+
+</center>
+
+</div>
+
+</body>
+</html>
